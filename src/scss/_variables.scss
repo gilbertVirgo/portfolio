@@ -1,0 +1,25 @@
+$xs: 300px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1500px;
+
+$sans-serif: "Source Sans Pro", Helvetica, sans-serif;
+$serif: "Volkorn", Charter, serif;
+
+$dark: #32292F;
+$cream: #E1E8D0;
+$orange: #FF715B;
+$grey: #4C5B5C;
+$white: #FCFAF9;
+
+[variant="dark"] { 
+    background-color: $dark }
+[variant="cream"] {
+    background-color: $cream }
+[variant="orange"] {
+    background-color: $orange }
+[variant="grey"] {
+    background-color: $grey }
+[variant="white"] {
+    background-color: $white }

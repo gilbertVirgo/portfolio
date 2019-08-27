@@ -1,0 +1,14 @@
+@mixin media($min, $max) {
+    @media screen and (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+@mixin breakpoints {
+    @include media(0, $xs - 1px)        { width: 100%; @content; }
+    @include media($xs, $sm - 1px)      { width: $xs; @content; }
+    @include media($sm, $md - 1px)      { width: $sm; @content; }
+    @include media($md, $lg - 1px)      { width: $md; @content; }
+    @include media($lg, $xl - 1px)      { width: $lg; @content; }
+    @include media($xl, 99999px)        { width: $xl; @content; }
+}
