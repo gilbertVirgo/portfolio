@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5c87a6e9.chunk.css",
+    "main.js": "/portfolio/static/js/main.3c00a3a3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3c00a3a3.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.ff327d1a.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.ff327d1a.js.map",
+    "static/js/2.c958f9e0.chunk.js": "/portfolio/static/js/2.c958f9e0.chunk.js",
+    "static/js/2.c958f9e0.chunk.js.map": "/portfolio/static/js/2.c958f9e0.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7fc26b3b95528ec3d8265083bae35c51.js": "/portfolio/precache-manifest.7fc26b3b95528ec3d8265083bae35c51.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.5c87a6e9.chunk.css.map": "/portfolio/static/css/main.5c87a6e9.chunk.css.map",
+    "static/media/chl-1.png": "/portfolio/static/media/chl-1.bdea6397.png",
+    "static/media/chl-2.png": "/portfolio/static/media/chl-2.88b1a713.png",
+    "static/media/chl-3.png": "/portfolio/static/media/chl-3.624a79f1.png",
+    "static/media/chl-4.png": "/portfolio/static/media/chl-4.0ef583a2.png",
+    "static/media/hand.svg": "/portfolio/static/media/hand.4163ff4f.svg",
+    "static/media/left-arrow.svg": "/portfolio/static/media/left-arrow.292f4051.svg",
+    "static/media/phone.svg": "/portfolio/static/media/phone.ae6a56bb.svg",
+    "static/media/right-arrow.svg": "/portfolio/static/media/right-arrow.95a791ba.svg"
+  }
+}
