@@ -1,0 +1,56 @@
+@keyframes flick {
+    from { transform: translateY(0) }
+    50% { transform: translateY(50px) }
+    to { transform: translateY(0) }
+}
+
+
+
+.arrow {
+    button {
+        appearance: none;
+        border: none;
+        background: none;
+        font-size: inherit;
+        outline: none;
+    }
+
+    &.outer {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        align-self: baseline;
+        border-radius: 50%;
+        box-sizing: border-box;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            margin-top: 30px;
+
+            .icon {
+                -webkit-filter: drop-shadow( 0px 0px 0px rgba(0, 0, 0, .3));
+                    filter: drop-shadow( -10px 0px 0px rgba(0, 0, 0, .3));
+            }
+        }
+
+        .icon { 
+            transition: inherit;
+            width: 50px;
+            align-self: flex-end;
+
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            transform: translateZ(0) scale(1.0, 1.0);
+            -webkit-transform: translateZ(0) scale(1.0, 1.0);
+        }
+        .text { 
+            align-self: flex-start;
+            text-align: center;
+            margin: 5px 0;
+        }
+    }
+}

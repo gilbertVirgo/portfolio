@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+@import "svg";
+@import "arrow";
+@import "text";
+@import "container";
+@import "screen";
+
+body { margin: 0 }
+
+p, blockquote { 
+    font-size: 18px;
+
+    &.large { font-size: 40px }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote { margin: 0 0 10px; padding: 0 }
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    display: inherit;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+
+    @extend .container;
+}
