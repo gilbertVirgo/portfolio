@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "http://gilbertVirgo.github.io/portfolio",
+  "homepage": "https://gilbertVirgo.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,7 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
-  }
+  "devDependencies": {}
 }
