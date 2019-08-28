@@ -1,0 +1,29 @@
+@keyframes wave {
+    0% { transform: rotateZ(0deg) translateY(0) }
+    20% { transform: rotateZ(25deg) translateY(-25px) }
+    40% { transform: rotateZ(-35deg) translateY(-35px) }
+    60% { transform: rotateZ(15deg) translateY(-15px) }
+    80% { transform: rotateZ(-10deg) translateY(-10px) }
+    100% { transform: rotateZ(0deg) translateY(0) }
+}
+
+.wave {
+    animation: 1s wave forwards;
+    perspective: 10cm;
+    transform-style: preserve-3d;
+    
+    img {
+        transform: rotateY(0deg);
+        transition: transform 1s;
+    }
+
+    &:hover img {
+        transform: rotateY(360deg);
+    }
+}
+
+.ring {
+    &:hover img {
+        animation: 0.75s wave forwards;
+    }
+}

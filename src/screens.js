@@ -7,10 +7,12 @@ import Quote from "./components/Quote";
 const screens = [
     [{variant: "dark"},
     props => <Screen {...props}>
-        <img 
-            width="100px"
-            alt="Hand" 
-            src={require("./assets/hand.svg")}/>
+        <div className="wave" style={{width: "100px", margin: "0 auto"}}>
+            <img 
+                width="100px"
+                alt="Hand" 
+                src={require("./assets/hand.svg")}/>
+        </div>
         <h1 className="sans-serif text-cream text-center">Hi, I'm Gil</h1>
         <Arrow 
             color="orange" 
@@ -98,33 +100,37 @@ const screens = [
 
     [{variant: "dark"},
     props => <Screen {...props}>
-        <div style={{clear: "both", width: "100%", overflow: "auto"}}>
-            <img 
-                style={{float: "left", height: "200px"}}
-                alt="Phone"
-                src={require("./assets/phone.svg")}/>
+        <div style={{clear: "both", width: "100%", overflow: "visible"}}>
+            <div className="ring" style={{float: "left", height: "200px", overflow: "visible"}}>
+                <img 
+                    style={{height: "200px", overflow: "visible"}}
+                    alt="Phone"
+                    src={require("./assets/phone.svg")}/>
+            </div>
+            
             <p style={{float: "left"}} className="large serif text-white">
                 Let's work<br/>
                 together
             </p>
         </div>
-        <br/>
-        <p className="sans-serif text-cream text-center">gil@gilbertvirgo.com</p>
-        <br/><br/><br/>
-        <div style={{textAlign: "center"}}>
-            <img 
-                style={{height: "25px", display: "inline-block", margin: "0", verticalAlign: "middle"}}
-                alt="Right Arrow"
-                src={require("./assets/right-arrow.svg")}/>
-            <p 
-                style={{display: "inline-block", verticalAlign: "middle", margin: "0 10px"}}
-                className="text-expand sans-serif text-cream text-center"><b>
-                    <a href="http://theempire.netlify.com">The Empire</a>
-                </b></p>
-            <img 
-                style={{height: "25px", display: "inline-block", margin: "0", verticalAlign: "middle"}}
-                alt="Left Arrow"
-                src={require("./assets/left-arrow.svg")}/>
+        <div style={{clear: "both", paddingTop: "30px", boxSizing: "border-box"}}>
+            <p className="sans-serif text-cream text-center">gil@gilbertvirgo.com</p>
+            <br/><br/><br/>
+            <div style={{textAlign: "center"}}>
+                <img 
+                    style={{height: "25px", display: "inline-block", margin: "0", verticalAlign: "middle"}}
+                    alt="Right Arrow"
+                    src={require("./assets/right-arrow.svg")}/>
+                <p 
+                    style={{display: "inline-block", verticalAlign: "middle", margin: "0 10px"}}
+                    className="text-expand sans-serif text-cream text-center"><b>
+                        <a href="http://theempire.netlify.com">The Empire</a>
+                    </b></p>
+                <img 
+                    style={{height: "25px", display: "inline-block", margin: "0", verticalAlign: "middle"}}
+                    alt="Left Arrow"
+                    src={require("./assets/left-arrow.svg")}/>
+            </div>
         </div>
     </Screen>]
 ];
