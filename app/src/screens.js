@@ -3,10 +3,12 @@ import Screen from "./components/Screen";
 import Arrow from "./components/Arrow";
 import Subtitle from "./components/Subtitle";
 import Quote from "./components/Quote";
+import Git from "./components/Git";
 
 const screens = [
     [{variant: "dark"},
-    props => <Screen {...props}>
+    props => <Screen key={1} {...props}>
+        <Git iconColor="orange" textColor="cream"/>
         <div className="wave" style={{width: "100px", margin: "0 auto"}}>
             <img 
                 width="100px"
@@ -22,7 +24,7 @@ const screens = [
     </Screen>], 
 
     [{variant: "orange"},
-    props => <Screen {...props}>
+    props => <Screen key={2} {...props}>
         <p className="large serif text-white">
             I&#39;m a <span className="text-cream">website developer</span>,<br/>
             I work with The Empire and I freelance.
@@ -35,7 +37,7 @@ const screens = [
     </Screen>],
 
     [{variant: "dark"},
-    props => <Screen {...props}>
+    props => <Screen key={3} {...props}>
         <p className="large serif text-white">
             Christian<br/>
             Heritage<br/>
@@ -78,7 +80,7 @@ const screens = [
     </Screen>],
 
     [{variant: "cream"},
-    props => <Screen {...props}>
+    props => <Screen key={4} {...props}>
         <p className="large serif text-dark">
             Resin<br/>
             Bonded<br/>
@@ -99,7 +101,8 @@ const screens = [
     </Screen>],
 
     [{variant: "dark"},
-    props => <Screen {...props}>
+    props => <Screen key={5} {...props}>
+        <Git iconColor="orange" textColor="cream"/>
         <div style={{clear: "both", width: "100%", overflow: "visible"}}>
             <div className="ring" style={{float: "left", height: "200px", overflow: "visible"}}>
                 <img 

@@ -1,0 +1,22 @@
+.git-outer {
+    position: fixed;
+    top: 15px; left: 15px;
+
+    &:hover .git-icon {
+        transform: scale(1.2, 1.2);
+    }
+
+    .git-icon {
+        transition: transform 0.3s;
+    }
+
+    .git-icon, .git-text {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    .git-text {
+        margin-left: 10px;
+    }
+}
