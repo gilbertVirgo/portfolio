@@ -40,21 +40,6 @@ const Git = ({iconColor, textColor}) =>
                         c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
                         C438.536,184.851,428.728,148.168,409.132,114.573z"/>
                 </g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
-                <g></g>
             </svg>
         
             <p className={"git-text sans-serif text-" + textColor}>/gilbertVirgo</p>

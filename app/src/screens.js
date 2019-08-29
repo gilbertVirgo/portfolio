@@ -103,15 +103,22 @@ const screens = [
     [{variant: "dark"},
     props => <Screen key={5} {...props}>
         <Git iconColor="orange" textColor="cream"/>
-        <div style={{clear: "both", width: "100%", overflow: "visible"}}>
-            <div className="ring" style={{float: "left", height: "200px", overflow: "visible"}}>
+        <div style={{clear: "both", width: "100%", overflow: "visible", position: "relative"}}>
+            <div className="ring" style={{
+                display: "inline-block",
+                verticalAlign: "middle", 
+                maxWidth: "30%", 
+                maxHeight: "200px", 
+                overflow: "visible"}}>
                 <img 
                     style={{height: "200px", overflow: "visible"}}
                     alt="Phone"
                     src={require("./assets/phone.svg")}/>
             </div>
             
-            <p style={{float: "left"}} className="large serif text-white">
+            <p style={{
+                display: "inline-block",
+                verticalAlign: "middle"}} className="large serif text-white">
                 Let's work<br/>
                 together
             </p>
