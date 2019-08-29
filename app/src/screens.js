@@ -52,11 +52,11 @@ const screens = [
         <br/>
         <img
             alt="CHL 1"
-            src={require("./assets/chl-1.png")}/>
+            src={require("./assets/chl_1.jpg")}/>
         <br/>
         <img
             alt="CHL 2"
-            src={require("./assets/chl-2.png")}/>
+            src={require("./assets/chl_2.jpg")}/>
         <Quote quoteMarkColor="orange" textColor="cream">
             Some flattering endorsement text here. Website 
             works well. Website works very well. It works 
@@ -66,11 +66,11 @@ const screens = [
         <br/>
         <img
             alt="CHL 3"
-            src={require("./assets/chl-3.png")}/>
+            src={require("./assets/chl_3.jpg")}/>
         <br/>
         <img
             alt="CHL 4"
-            src={require("./assets/chl-4.png")}/>
+            src={require("./assets/chl_4.jpg")}/>
         <br/>
         <Arrow 
             color="cream" 
