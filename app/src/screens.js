@@ -45,9 +45,7 @@ const screens = [
         </p>
         <Subtitle className="text-cream">Website</Subtitle>
         <Quote quoteMarkColor="orange" textColor="cream">
-            Christian Heritage London exists to draw attention 
-            to the advances of Christianity in [London] and to 
-            commend the claims of the Christian gospel.
+            Placeholder text
         </Quote>
         <br/>
         <img
@@ -58,11 +56,9 @@ const screens = [
             alt="CHL 2"
             src={require("./assets/chl_2.jpg")}/>
         <Quote quoteMarkColor="orange" textColor="cream">
-            Some flattering endorsement text here. Website 
-            works well. Website works very well. It works 
-            very, very well.
+            Placeholder text
         </Quote>
-        <Subtitle className="text-cream text-right"><small>Peter Greyling, Guide and Trustee, CHL</small></Subtitle>
+        <Subtitle className="text-cream text-right"><small>Placeholder text</small></Subtitle>
         <br/>
         <img
             alt="CHL 3"
@@ -88,11 +84,9 @@ const screens = [
         </p>
         <Subtitle>DBMS</Subtitle>
         <Quote quoteMarkColor="orange" textColor="dark">
-            Some flattering endorsement text here. System 
-            works well. System works very well. It works 
-            very, very well.
+            Placeholder text
         </Quote>
-        <Subtitle className="text-right"><small>Martin Roots, CEO, Resin Bonded Ltd.</small></Subtitle>
+        <Subtitle className="text-right"><small>Placeholder text</small></Subtitle>
         <Arrow 
             color="dark" 
             textColor="dark">
