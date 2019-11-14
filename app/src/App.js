@@ -8,7 +8,12 @@ import Master from './components/Master';
 const App = () => {
 	useEffect(() => {
 		(async function() {
-			const opt = {"api-key": "8b368df585241bfbfc3ae8133dc1c32e"};
+			const opt = {
+				headers: {
+					"api-key": "8b368df585241bfbfc3ae8133dc1c32e"
+				},
+				method: "GET"
+			};
 			const req = await fetch('https://api.scripture.api.bible/v1/bibles/GNT/verses/Genesis%201%3A1', opt);
 			const data = await req.json();
 
