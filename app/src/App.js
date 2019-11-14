@@ -14,7 +14,7 @@ const App = () => {
 				},
 				method: "GET"
 			};
-			const req = await fetch('https://api.scripture.api.bible/v1/bibles/GNT/verses/Genesis%201%3A1', opt);
+			const req = await fetch('https://api.scripture.api.bible/v1/bibles', opt);
 			const data = await req.json();
 
 			console.log({data});
